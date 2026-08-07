@@ -1,6 +1,6 @@
 # Greg
 
-Security engineer building AI tools. Interested in what happens when both sides have agents.
+Security leader building and experimenting with AI systems. Interested in what happens when both sides have agents.
 
 ---
 
