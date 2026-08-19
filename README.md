@@ -36,4 +36,4 @@ Data analysis and sabermetrics.
 
 ## Contact
 
-[Say hi](https://github.com/ideksec/ideksec/issues)
+[Say hi](https://www.linkedin.com/in/greg-weir)
