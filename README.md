@@ -1,6 +1,6 @@
 # Greg
 
-Security leader focused on secure AI adoption — the governance, identity, and runtime controls that let an enterprise say yes to agents. I lead global Security Operations and IAM at a cloud-native fintech, where that work is already hands-on: I designed and built a multi-agent triage system that now runs in production against every security alert, and I assess the security risks of LLM and agentic adoption across the business — identity and access, tool permissions, data exposure, prompt injection.
+Security leader focused on secure AI adoption — the governance, identity, and runtime controls that let an enterprise say yes to agents. I lead global Security Operations and IAM at a cloud-native fintech, where I assess the security risks of LLM and agentic adoption across the business — identity and access, tool permissions, data exposure, prompt injection.
 
 **Interested in what happens when both sides have agents.**
 
