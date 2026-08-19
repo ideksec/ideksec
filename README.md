@@ -1,6 +1,6 @@
 # Greg
 
-Security leader working on the problems agentic AI creates for the enterprise — and on what it takes to adopt agents without giving up visibility or control. Background in security architecture, identity, and runtime security; currently spending my time building small, honest experiments against the sharpest of those problems.
+Security leader with roots in incident response and security operations, now leading global SecOps and IAM at a cloud-native fintech. Increasingly focused on AI security from both directions — securing agentic systems, and running agents in production defense.
 
 **Interested in what happens when both sides have agents.**
 
@@ -10,15 +10,15 @@ Security leader working on the problems agentic AI creates for the enterprise �
 
 ### [Bellwether](https://github.com/ideksec/bellwether)
 
-A CI/CD gate for AI agent skills. A skill is distributed like code and reviewed like prose, but what it *does* depends on which model reads it and when. Bellwether runs a candidate skill repeatedly in an instrumented sandbox, records what the agent actually did — tool calls, file access, network egress, planted-canary leaks — measures how much behavior varies between runs, and renders a release verdict against a policy the repo owner controls. It is deliberately modest about what evidence can claim: N runs are a distribution, not a proof. It warns; it does not vouch. Early and moving fast.
+A CI/CD gate for AI agent skills: run a candidate skill repeatedly in an instrumented sandbox, record what the agent actually does, measure how its behavior drifts between runs, and gate the release on evidence rather than prose review. An experiment — it warns, it does not vouch.
 
 ### [Agent Identity Broker](https://github.com/ideksec/agent-identity-broker)
 
-An experiment in workload identity and authorization for autonomous and user-delegated agents. The default today is handing an agent a long-lived, over-scoped API key. This explores the alternative: SPIFFE/SPIRE workload identity in, short-lived policy-checked credentials out, with on-behalf-of user context and an audit record for every decision. A hands-on way to work through the primitives — SPIFFE, OIDC federation, OPA — that agentic systems will increasingly depend on. Proof of concept, not production software.
+An experiment in workload identity and authorization for agents: SPIFFE/SPIRE identity in, short-lived policy-checked credentials out, with on-behalf-of user delegation and an audit trail — instead of a long-lived API key in an environment variable. Proof of concept, not production software.
 
 ### [NoScope](https://github.com/ideksec/NoScope)
 
-Time-boxed autonomous agent orchestration: spec in, runnable MVP out, guaranteed to stop. Built in part to understand from the inside the systems I want to secure — capability-gated tools instead of raw shell access, optional Docker sandboxing, a full JSONL event log of every action, and verification that executes real commands rather than trusting the model's own claim of success.
+Time-boxed autonomous agent orchestration: spec in, runnable MVP out, guaranteed to stop. Built in part to understand the systems I want to secure from the inside — capability gating, sandboxing, observability, and verification that runs real commands instead of trusting the model.
 
 ## Exploring
 
